@@ -1,0 +1,114 @@
+
+ body{
+   background-color: aquamarine;
+ }
+ body{
+ font-family: sans-serif;
+ margin: 0;
+ }
+ .ma_banniere{
+    padding: 100px; 
+    background-image: url(./image/img1.PNG);
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed,scroll;
+    width: 50%;
+    margin: auto;
+ }
+ 
+.Ma_bordure{
+    background-color: aqua;
+    border-radius: 20px;
+    padding: 100px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+ }
+ 
+a:hover{
+   text-decoration: none;
+   color: blue;
+}
+a:active{
+   text-decoration-color: blueviolet;
+}
+a:focus{
+   background-color: blueviolet;
+   color: beige;
+   outline-color: blue;
+}
+/*le siblings*/
+img:hover + h1 {
+   color: blueviolet;
+}
+
+.java:hover{
+   background-color: darkviolet;
+   color: white;
+}
+h1:hover{
+   color: crimson;
+}
+p:hover{
+   color: forestgreen;
+}
+a:hover{
+   background-color: blue;
+}
+a:visited{
+   color: black;
+}
+h3 em {
+   color: aqua;
+}
+h3 + p{
+   background-color: green;
+}
+a[title="je_beque"]{
+   background-color: black;
+}
+.font-bo{
+   width: 50%;
+   }
+.survol{
+   margin: 50px;
+   padding: 50px;
+   background-color: grey;
+   padding-left: 50px;
+   padding-right: 100px;
+   padding-bottom: 10px;
+   padding-top: 10px;
+}
+.marge{
+   width: 350px;
+   text-align: justify;
+   background-color: aqua;
+   padding: 16px;
+   margin: auto;
+}
+
+.Box{
+background-color: azure;
+border-radius: 10px;
+text-align: center;
+font-size: 2em;
+display: inline-block;
+border: solid black 3px;
+width: 300px;
+display: none;
+
+}
+.one{
+   height: 100px;
+}
+.two{
+   height: 200px;
+}
+.three {
+   height: 300px;
+}
+a{
+   position: absolute;
+   top: 6px;
+   left: 10px;
+   background-color: white;
+}
